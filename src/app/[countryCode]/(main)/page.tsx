@@ -2,13 +2,14 @@ import { Metadata } from "next"
 
 import FeaturedProducts from "@modules/home/components/featured-products"
 import Hero from "@modules/home/components/hero"
+import CategoryHighlights from "@modules/home/components/category-highlights"
 import { listCollections } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "Corpicia | Ecommerce de Jardinería",
   description:
-    "A performant frontend ecommerce starter template with Next.js 15 and Medusa.",
+    "Césped, sistemas de riego, insumos y servicios de instalación para proyectos de jardinería.",
 }
 
 export default async function Home(props: {
@@ -31,7 +32,8 @@ export default async function Home(props: {
   return (
     <>
       <Hero />
-      <div className="py-12">
+      <CategoryHighlights />
+      <div className="py-8">
         <ul className="flex flex-col gap-x-6">
           <FeaturedProducts collections={collections} region={region} />
         </ul>
