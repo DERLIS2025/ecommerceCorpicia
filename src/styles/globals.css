@@ -109,4 +109,16 @@
   .text-3xl-semi {
     @apply text-[32px] leading-[44px] font-semibold;
   }
+
+  .brand-primary {
+    @apply text-[#2E7D32];
+  }
+
+  .brand-primary-light {
+    @apply text-[#43A047];
+  }
+
+  .brand-accent {
+    @apply text-[#FFC107];
+  }
 }

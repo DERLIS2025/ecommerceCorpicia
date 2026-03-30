@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "Césped Natural",
+      "handle": "cesped-natural",
+      "description": "Variedades naturales de alto rendimiento para jardines y espacios verdes."
+    },
+    {
+      "name": "Césped Sintético",
+      "handle": "cesped-sintetico",
+      "description": "Alternativas de bajo mantenimiento para áreas recreativas y comerciales."
+    },
+    {
+      "name": "Sistemas de Riego",
+      "handle": "sistemas-de-riego",
+      "description": "Equipos y kits para automatización de riego eficiente."
+    },
+    {
+      "name": "Insumos de Jardinería",
+      "handle": "insumos-de-jardineria",
+      "description": "Sustratos, tierras y complementos para nutrición del suelo."
+    },
+    {
+      "name": "Servicios de Instalación",
+      "handle": "servicios-de-instalacion",
+      "description": "Instalación profesional de césped y sistemas de riego."
+    }
+  ],
+  "products": [
+    {
+      "title": "Césped Esmeralda",
+      "handle": "cesped-esmeralda",
+      "description": "Césped natural de textura fina y color intenso, ideal para jardines residenciales.",
+      "price": 85000,
+      "currency_code": "pyg",
+      "stock": 120,
+      "thumbnail": "https://placehold.co/1200x1200/2E7D32/FFFFFF?text=Cesped+Esmeralda",
+      "category_handle": "cesped-natural"
+    },
+    {
+      "title": "Césped Siempre Verde",
+      "handle": "cesped-siempre-verde",
+      "description": "Variedad resistente para alto tránsito y excelente cobertura durante todo el año.",
+      "price": 92000,
+      "currency_code": "pyg",
+      "stock": 95,
+      "thumbnail": "https://placehold.co/1200x1200/43A047/FFFFFF?text=Cesped+Siempre+Verde",
+      "category_handle": "cesped-sintetico"
+    },
+    {
+      "title": "Kit de Riego Automático",
+      "handle": "kit-riego-automatico",
+      "description": "Kit completo con programador, válvulas y difusores para riego inteligente.",
+      "price": 390000,
+      "currency_code": "pyg",
+      "stock": 40,
+      "thumbnail": "https://placehold.co/1200x1200/1B5E20/FFFFFF?text=Kit+de+Riego",
+      "category_handle": "sistemas-de-riego"
+    },
+    {
+      "title": "Tierra Negra Premium",
+      "handle": "tierra-negra-premium",
+      "description": "Sustrato orgánico enriquecido para mejorar drenaje y nutrición de plantas.",
+      "price": 45000,
+      "currency_code": "pyg",
+      "stock": 250,
+      "thumbnail": "https://placehold.co/1200x1200/6D4C41/FFFFFF?text=Tierra+Negra",
+      "category_handle": "insumos-de-jardineria"
+    }
+  ]
+}
